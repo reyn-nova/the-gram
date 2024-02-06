@@ -25,8 +25,43 @@
                 <div
                     style="font-size: 36px; font-weight: bold; text-align: center; margin-bottom: 80px;"
                 >
-                    The Gram | Main
+                    The Gram | Login
                 </div>
+                
+                <form>
+                    <div
+                        style="display: flex; flex-direction: column; align-items: center;"
+                    >
+                        <input
+                            placeholder="Username"
+                            style="padding: 10px; width: 400px; border-radius: 10px;"
+                        />
+
+                        <br />
+
+                        <input
+                            placeholder="Password"
+                            style="padding: 10px; width: 400px; border-radius: 10px;"
+                        />
+
+                        <a
+                            href="/"
+                            style="background-color: #D80073; padding: 10px; width: 400px; border-radius: 10px; font-weight: bold; color: white; font-size: 24px; margin-top: 40px; text-align: center;"
+                        >
+                            Login
+                        </a>
+
+                        <div
+                            style="color: red; margin-top: 20px; font-size: 24px; height: 30px; font-weight: 100;"
+                        >
+                           
+                        </div>
+
+                        <div style="font-weight: bold; color: white; font-size: 24px; margin-top: 60px;">
+                            Don't have an account? <a href="/register" style="color: navy;">Register</a>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </body>
