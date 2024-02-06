@@ -50,7 +50,13 @@
                             Login
                         </button>
 
-                        <div style="font-weight: bold; color: white; font-size: 24px; margin-top: 80px;">
+                        <div
+                            style="color: red; margin-top: 20px; font-size: 24px; height: 30px; font-weight: 100;"
+                        >
+                           
+                        </div>
+
+                        <div style="font-weight: bold; color: white; font-size: 24px; margin-top: 60px;">
                             Don't have an account? <a href="/register" style="color: navy;">Register</a>
                         </div>
                     </div>
