@@ -17,15 +17,44 @@
     </head>
     <body class="antialiased">
         <div
-            style="display: flex; flex-direction: column; background-color: #F8CECC; height: 100vh; width: 100vw; padding: 80px;"
+            style="display: flex; flex-direction: column; background-color: #F8CECC; height: 100vh; width: 100vw; padding: 80px 0px 80px 0px;"
         >
             <div
-                style="display: flex; flex-direction: column; flex: 1; justify-content: center;"
+                style="display: flex; flex-direction: column; flex: 1;"
             >
                 <div
-                    style="font-size: 36px; font-weight: bold; text-align: center; margin-bottom: 80px;"
+                    style="font-size: 36px; font-weight: bold; padding-left: 80px;"
                 >
-                    The Gram | Main
+                    Title | Main
+                </div>
+
+                <div
+                    style="overflow: auto; white-space: nowrap; margin-top: 80px; padding: 0px 60px 30px 80px;"
+                >
+                    
+                    <div
+                        style="display: inline-block; background-color: white; padding: 20px; margin-right: 20px; height: 700px; width: 640px;"
+                    >
+                        <img src="https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=2872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="height: 600px; width: 600px;" />
+
+                        <div
+                            style="margin-top: 20px; font-weight: bold; font-size: 24px;"
+                        >
+                            First photo
+                        </div>
+                    </div>
+
+                    <div
+                        style="display: inline-block; background-color: white; padding: 20px; margin-right: 20px; height: 700px; width: 640px;"
+                    >
+                        <img src="https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=2872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="height: 600px; width: 600px;" />
+
+                        <div
+                            style="margin-top: 20px; font-weight: bold; font-size: 24px;"
+                        >
+                            Second photo
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
